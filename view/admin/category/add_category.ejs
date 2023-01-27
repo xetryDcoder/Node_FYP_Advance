@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%= message %>
+    <form action="/admin/add-category" method="post" enctype="multipart/form-data">
+        <label for="">Category Name</label><br>
+        <input type="text" name="category"  placeholder="Please input the Name of category you want to add!!">
+        <input type="file" name="image">
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
